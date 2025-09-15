@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "smish"
+version = "0.1.0"
+description = "Smish - Single-Action Microgateway for the post-API era"
+readme = "README.md"
+requires-python = ">=3.9"
+authors = [{name="Bryan Barrett"}]
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["smish*"]
